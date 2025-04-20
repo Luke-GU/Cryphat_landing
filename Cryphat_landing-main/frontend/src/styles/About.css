@@ -1,0 +1,47 @@
+.about-section {
+    background-color: #111;
+    color: white;
+    padding: 6rem 2rem;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 3rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .about-text {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    color: #00ffe1;
+    margin-bottom: 1rem;
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #ccc;
+  }
+  
+  .about-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    opacity: 0.95;
+  }
+  
