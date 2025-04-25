@@ -33,3 +33,5 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`백엔드 서버 실행 중: http://localhost:${port}`);
 });
+
+module.exports = db;
